@@ -11,25 +11,28 @@ Copy the skill directory into your Claude skills folder:
 cp -r <skill-name> ~/.claude/skills/
 
 # Example
-cp -r book-writing ~/.claude/skills/
+cp -r technical-book-writing ~/.claude/skills/
 ```
 
 After copying, the skill is immediately available in any Claude Code session — no restart needed.
 
 ## Available skills
 
-### `book-writing`
+### `technical-book-writing`
 
-技术书稿写作与出版规范。
+撰写与重构技术书籍指南（目录、正文、出版规范）。
 
 Covers:
-- Reader-facing prose only: no review notes, TODOs, internal discussion or implementation tracking in body text or code comments
-- Forbidden vs. allowed examples
-- Templates for rewriting review notes into neutral prose (rationale, alternatives, trade-offs)
+- TOC as navigation: neutral naming, abbreviation control, heading hierarchy
+- Prose techniques: metaphors, "why not" motivation, code breathing, golden path, guardrails
+- Discipline rules: diction density, meta-narration, punctuation, emphasis, no review notes in manuscript
+- Publisher manuscript standards (numbering, terminology, punctuation, figures/tables, references)
+- Whole-book structure governance and heading rules
+- Self-check checklist before submission
 
-**Trigger keywords:** 写书, 书稿, 写作, 出版, 写作规范, 清稿, 审稿笔记, 技术写作, book writing, manuscript, technical writing
+**Trigger keywords:** 写技术书籍, 书稿, 目录, TOC, 写作, 出版, 审稿, technical book, manuscript
 
-**Usage:** mention any trigger keyword or type `/book-writing` in the prompt.
+**Usage:** mention any trigger keyword or type `/technical-book-writing` in the prompt.
 
 ---
 
