@@ -202,9 +202,9 @@ description: Guide for writing and formatting technical book table of contents (
 
 ---
 
-## 附录 A：出版社稿件规范
+## 附录 A：出版社稿件规范（摘自《作译者手册》）
 
-以下规范属于出版行业强制性要求，优先级高于风格建议。
+以下规范摘自出版社《作译者手册》，属于出版行业强制性要求，优先级高于风格建议。
 
 ### A.1 交稿"五衔接、六统一、七对应"
 
